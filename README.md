@@ -1,6 +1,6 @@
 # Selenuim_Automation
 
-##Page Object Model using selenium Webdrive and Implementation
+## Page Object Model using selenium Webdrive and Implementation
  - Company use this method to store locators and methods in seperate java class file and use same class in different test scripts. 
  - it is just a design pattern not a framework
  - there are multiple design pattern available for java like Singleton design pattern, Structural design pattern and so on.
