@@ -7,5 +7,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/selenium-java-3.141.59" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/selenium-java-3.141.59" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.141.59" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.141.59" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
