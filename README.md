@@ -16,3 +16,7 @@
  2. Page Object Model with PageFactory
 
 #### Page Object Model without PageFactory
+lets, think practically, if application have a login page where username, password and login button is present. User will create a seperate POM_without_Pagefactory 
+java class and will store three locators, and we will create methods to access them. User need to design a test case so that they can use the login class, which is created
+and call the methods accordingly. If any changes happen in DOM then user need not to change the whole test cases but have to update only login class. 
+
