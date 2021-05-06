@@ -1,10 +1,15 @@
 package gmail_login_page;
 
+import jdk.jfr.Timespan;
+import okio.Timeout;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class POM_without_Pagefactory {
     WebDriver driver;
@@ -53,6 +58,24 @@ public class POM_without_Pagefactory {
     {
         driver.findElement(usrNextButton).click();
     }
+    public void verifyPageLoad(String pass)
+    {
+        try
+        {
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            Boolean isPresent = driver.findElements(password).size() > 0;
+            if (isPresent) {
+                typePassword(pass);
+                clickPassNextButton();
+            }
+        }
+        catch(Exception e)
+        {
+            throw new ElementNotVisibleException("no such element exist");
+        }
+
+    }
+
     public void typePassword(String pass)
     {
         driver.findElement(password).sendKeys(pass);
@@ -61,6 +84,7 @@ public class POM_without_Pagefactory {
     {
         driver.findElement(passNextButton).click();
     }
+
 
 }
 
