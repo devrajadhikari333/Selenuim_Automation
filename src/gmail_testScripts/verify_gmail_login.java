@@ -21,9 +21,9 @@ public class verify_gmail_login {
             //login.loginToGmail("devrajadhikari333@gmail.com","123456");
             login.typeUsername("devrajadhikari333@gmail.com");
             login.clickUsrNext();
-            //login.verifyPageLoad("123456");
-            login.typePassword("123456");
-            login.clickPassNextButton();
+            login.verifyPageLoad("123456");
+            //login.typePassword("123456");
+            //login.clickPassNextButton();
             driver.quit();
 
         }
