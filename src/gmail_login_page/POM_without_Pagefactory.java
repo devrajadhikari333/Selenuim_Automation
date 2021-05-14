@@ -82,8 +82,6 @@ public class POM_without_Pagefactory {
     {
         driver.findElement(passNextButton).click();
     }
-
-
 }
 
 
