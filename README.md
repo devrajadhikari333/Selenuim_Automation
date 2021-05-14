@@ -20,6 +20,8 @@ lets, think practically, if application have a login page where username, passwo
 java class and will store three locators, and we will create methods to access them. User need to design a test case so that they can use the login class, which is created
 and call the methods accordingly. If any changes happen in DOM then user need not to change the whole test cases but have to update only login class.
 
-Example of POM without PageFactory: 
-[link for library] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_login_page/POM_without_Pagefactory.java) 
+Example of POM without PageFactory:
+
+[link for library] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_login_page/POM_without_Pagefactory.java)
+
 [link for test Scripts] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_testScripts/verify_gmail_login.java)
