@@ -24,4 +24,4 @@ Example of POM without PageFactory:
 
 [link for library] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_login_page/POM_without_Pagefactory.java)
 
-[link for test Scripts] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_testScripts/verify_gmail_login.java)
+[link for test Script] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_testScripts/verify_gmail_login.java)
