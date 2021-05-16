@@ -25,3 +25,16 @@ Example of POM without PageFactory:
 [link for library] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_login_page/POM_without_Pagefactory.java)
 
 [link for test Script] (https://github.com/devrajadhikari333/Selenuim_Automation/blob/main/src/gmail_testScripts/verify_gmail_login.java)
+
+#### Page Object Model with PageFactory
+PageFactory is the built-in class in Selenium. It has a seperate method to initialize web element of page object
+is initElement. One of the important feature of Page Factory is Cache feature that will store all frequently used
+WebElement in cache. 
+
+Example of POM without PageFactory:
+
+[link for library] 
+
+[link for browserFactory class file]
+
+[link for test Script]

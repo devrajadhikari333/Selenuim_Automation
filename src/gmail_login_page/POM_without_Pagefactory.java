@@ -57,7 +57,7 @@ public class POM_without_Pagefactory {
     {
         driver.findElement(usrNextButton).click();
     }
-    public void verifyPageLoad(String pass)
+    /*public void verifyPageLoad(String pass)
     {
         try
         {
@@ -72,7 +72,7 @@ public class POM_without_Pagefactory {
             throw new ElementNotVisibleException("no such element exist");
         }
 
-    }
+    }*/
 
     public void typePassword(String pass)
     {
