@@ -10,8 +10,11 @@ public class testScript_with_Pagefactory {
     @Test
     public void gmail_login()
     {
+        // This will launch browser and specific url
         WebDriver driver=browserFactory.startBrowser("chrome","https://gmail.com");
+        // Created Page Object using Page Factory
         POM_with_PageFactory login = PageFactory.initElements(driver, POM_with_PageFactory.class);
-        login.login_gmail("devrajadhikari333@gmail.com", "123456");
+        // call the method
+        login.login_gmail("devraj********@gmail.com", "******");
     }
 }

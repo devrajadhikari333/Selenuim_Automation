@@ -19,10 +19,10 @@ public class verify_gmail_login {
 
             POM_without_Pagefactory login = new POM_without_Pagefactory(driver);
             //login.loginToGmail("devrajadhikari333@gmail.com","123456");
-            login.typeUsername("devrajadhikari333@gmail.com");
+            login.typeUsername("devraj*******@gmail.com");
             login.clickUsrNext();
             //login.verifyPageLoad("123456");
-            login.typePassword("123456");
+            login.typePassword("******");
             login.clickPassNextButton();
             driver.quit();
 
